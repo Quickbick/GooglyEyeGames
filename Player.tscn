@@ -1,0 +1,6 @@
+[gd_scene format=2]
+
+[node name="KinematicBody" type="KinematicBody"]
+
+[node name="Spatial" type="Spatial" parent="."]
+transform = Transform( 1, -0.000680678, 0, 0.000680678, 1, 0, 0, 0, 1, 0.461265, 0.642843, 0.494377 )
