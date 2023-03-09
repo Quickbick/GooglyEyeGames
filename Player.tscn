@@ -1,6 +1,11 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/Humanoid.tscn" type="PackedScene" id=1]
 
 [node name="KinematicBody" type="KinematicBody"]
 
 [node name="Spatial" type="Spatial" parent="."]
 transform = Transform( 1, -0.000680678, 0, 0.000680678, 1, 0, 0, 0, 1, 0.461265, 0.642843, 0.494377 )
+
+[node name="Humanoid" parent="Spatial" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000324935, -0.477376, 0 )
