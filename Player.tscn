@@ -1,21 +1,12 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=2 format=3 uid="uid://qc5pw2pe48b"]
 
-[ext_resource path="res://Assets/Humanoid.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Player.cs" type="Script" id=2]
+[ext_resource type="PackedScene" path="res://Assets/Humanoid.tscn" id="1"]
 
-[sub_resource type="CapsuleShape" id=1]
-radius = 0.27405
-height = 1.28157
+[node name="Player" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 
-[node name="Player" type="KinematicBody"]
-script = ExtResource( 2 )
+[node name="Node3D" type="Node3D" parent="."]
+transform = Transform3D(1, -0.000680678, 0, 0.000680678, 1, 0, 0, 0, 1, 0.461265, 0.490527, 0.494377)
 
-[node name="Spatial" type="Spatial" parent="."]
-transform = Transform( 1, -0.000680678, 0, 0.000680678, 1, 0, 0, 0, 1, 0.461265, 0.490527, 0.494377 )
-
-[node name="Humanoid" parent="Spatial" instance=ExtResource( 1 )]
-transform = Transform( -0.999998, 0.00136135, -0.00113455, 0.00136135, 0.999999, 7.7226e-07, 0.00113455, -7.72261e-07, -0.999999, -0.000324994, -0.477376, 2.98023e-08 )
-
-[node name="CollisionShape" type="CollisionShape" parent="."]
-transform = Transform( 0.00068906, 0.999929, -0.0119179, -0.0151705, -0.0119061, -0.999814, -0.999885, 0.000869732, 0.0151612, 0.478014, 0.918076, 0.473155 )
-shape = SubResource( 1 )
+[node name="Humanoid" parent="Node3D" instance=ExtResource("1")]
+transform = Transform3D(-0.999998, 0.00136135, -0.00113455, 0.00136135, 0.999999, 7.7226e-07, 0.00113455, -7.72261e-07, -0.999999, -0.000324994, -0.477376, 2.98023e-08)

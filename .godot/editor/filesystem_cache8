@@ -1,0 +1,17 @@
+2a60927148abd1d33b818b535e306557
+::res://::1679559833
+default_env.tres::Environment::-1::1679559770::0::1::::<><>::
+icon.png::CompressedTexture2D::916193876337307906::1677553591::1679560038::1::::<><>::
+Main.tscn::PackedScene::-1::1679559770::0::1::::<><>::
+Player.cs::CSharpScript::-1::1679559770::0::1::::<><>::
+Player.tscn::PackedScene::-1::1679559770::0::1::::<><>::res://Assets/Humanoid.tscn
+README.md::TextFile::-1::1677553591::0::1::::<><>::
+::res://Assets/::1678331735
+Humanoid.fbx::PackedScene::6996714669568196181::1678331125::1679560038::1::::<><>::uid://b7r0uexn0ilxi<>uid://dtu1osw7wvpgf
+Humanoid.tscn::PackedScene::-1::1679559770::0::1::::<><>::res://Assets/Humanoid_NotOverlapping.material
+Humanoid_NotOverlapping.material::StandardMaterial3D::-1::1678331131::0::1::::<><>::res://Assets/NonOverlapping.png
+Humanoid_Overlapping.material::StandardMaterial3D::-1::1678331131::0::1::::<><>::res://Assets/Overlapping.png
+NonOverlapping.png::CompressedTexture2D::6118125974754806552::1678331127::1679560215::1::::<><>::
+Overlapping.png::CompressedTexture2D::6303635513083254963::1678331127::1679560038::1::::<><>::
+Humanoid-2eb22bdf42b08ce80394d208d0b4dbd6_NonOverlapping.png::CompressedTexture2D::4669111988874712050::1679560038::1679560038::1::::<><>::
+Humanoid-2eb22bdf42b08ce80394d208d0b4dbd6_Overlapping.png::CompressedTexture2D::8535742259099886229::1679560038::1679560038::1::::<><>::

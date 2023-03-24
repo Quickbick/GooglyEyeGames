@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class Player : KinematicBody
+public partial class Player : CharacterBody3D
 {
 	// Declare member variables here. Examples:
 	[Export]
@@ -33,7 +33,7 @@ public class Player : KinematicBody
 		//normalizes vector if greater than 0 for consistent movement
 		if(direction != Vector3.Zero){
 			direction = direction.Normalized();
-			GetNode<Spatial>("Spatial").LookAt(Translation + direction, Vector3.Up);
+			GetNode<Node3D>("Node3D").LookAt(Position + direction, Vector3.Up);
 		}
 		
 		//Ground Velocity
