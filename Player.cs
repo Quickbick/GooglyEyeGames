@@ -23,7 +23,9 @@ public partial class Player : CharacterBody3D
 		if (@event is InputEventMouseMotion mouse){
 			neck.RotateY(-mouse.Relative.X * (float)0.01);
 			camera.RotateX(-mouse.Relative.Y * (float)0.01);
-			//camera.Rotation.X= clamp(camera.rotation.x, ConvertToRadians(-30), ConvertToRadians(60));
+			Vector3 ClampMe = camera.Rotation;
+			ClampMe.X = Mathf.Clamp(camera.Rotation.X, (float)-0.523599, (float)1.0472);
+			camera.Rotation = ClampMe;
 		}
 	}
 
@@ -42,7 +44,7 @@ public partial class Player : CharacterBody3D
 		// Get the input direction and handle the movement/deceleration.
 		// As good practice, you should replace UI actions with custom gameplay actions.
 		Vector2 inputDir = Input.GetVector("move_left", "move_right", "move_forward", "move_back");
-		Vector3 direction = (Transform.Basis * new Vector3(inputDir.X, 0, inputDir.Y)).Normalized();
+		Vector3 direction = (neck.Transform.Basis * new Vector3(inputDir.X, 0, inputDir.Y)).Normalized();
 		if (direction != Vector3.Zero)
 		{
 			velocity.X = direction.X * Speed;
