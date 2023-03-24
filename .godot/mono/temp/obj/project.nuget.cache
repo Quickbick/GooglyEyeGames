@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aHewozTp4z9ZoVxNjgHxJkaJFtHQdQPxKs5xEkWmcbWiqNhPVkrNFElOeV1GIp5c7iksQuO8PnYMhBlvYuCutw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nsost\\Documents\\GooglyEyeGames\\Who Killed Benry.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nsost\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godot.sourcegenerators\\4.0.1\\godot.sourcegenerators.4.0.1.nupkg.sha512",
+    "C:\\Users\\nsost\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharp\\4.0.1\\godotsharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\nsost\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder\\godotsharpeditor\\4.0.1\\godotsharpeditor.4.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

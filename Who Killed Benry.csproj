@@ -1,6 +1,6 @@
 <Project Sdk="Godot.NET.Sdk/4.0.1">
   <PropertyGroup>
-    <TargetFramework>net472</TargetFramework>
+    <TargetFramework>net60</TargetFramework>
     <RootNamespace>WhoKilledBenry</RootNamespace>
   </PropertyGroup>
 </Project>
