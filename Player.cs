@@ -27,6 +27,7 @@ public partial class Player : CharacterBody3D
 			ClampMe.X = Mathf.Clamp(camera.Rotation.X, (float)-0.523599, (float)1.0472);
 			camera.Rotation = ClampMe;
 		}
+		//add else if for controller inputs?
 	}
 
 	public override void _PhysicsProcess(double delta)
