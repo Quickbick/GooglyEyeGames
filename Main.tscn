@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://lk0tnu0qk5k5"]
+[gd_scene load_steps=8 format=3 uid="uid://lk0tnu0qk5k5"]
 
 [ext_resource type="PackedScene" uid="uid://qc5pw2pe48b" path="res://Player.tscn" id="1_yb8uk"]
+[ext_resource type="Texture2D" uid="uid://cqgsowudcotfo" path="res://Assets/Circle01.png" id="2_7dsgq"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_d3t2x"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -41,3 +42,12 @@ shape = SubResource("ConcavePolygonShape3D_5o7bj")
 
 [node name="Player" parent="." instance=ExtResource("1_yb8uk")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.172152, 4.76837e-07, -2.61561)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Node2D" type="Node2D" parent="CanvasLayer"]
+
+[node name="Circle01" type="Sprite2D" parent="CanvasLayer/Node2D"]
+position = Vector2(576, 324)
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_7dsgq")
