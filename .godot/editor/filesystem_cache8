@@ -1,10 +1,11 @@
 2a60927148abd1d33b818b535e306557
-::res://::1679862982
-default_env.tres::Environment::8943517621074819233::1679648179::0::1::::<><>::
+::res://::1680224624
+default_env.tres::Environment::8943517621074819233::1679865642::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1680215647::0::1::::<><>::
 icon.png::CompressedTexture2D::916193876337307906::1677553591::1679560038::1::::<><>::
-Main.tscn::PackedScene::794273627319643866::1679648179::0::1::::<><>::uid://qc5pw2pe48b
-Player.cs::CSharpScript::-1::1679648179::0::1::::<><>::
-Player.tscn::PackedScene::33205874950578887::1679648047::0::1::::<><>::res://Player.cs
+Main.tscn::PackedScene::794273627319643866::1679865642::0::1::::<><>::uid://qc5pw2pe48b
+Player.cs::CSharpScript::-1::1679865610::0::1::::<><>::
+Player.tscn::PackedScene::33205874950578887::1679865612::0::1::::<><>::res://Player.cs
 README.md::TextFile::-1::1677553591::0::1::::<><>::
 ::res://Assets/::1679639257
 ::res://FBX2glTF/::1679559920

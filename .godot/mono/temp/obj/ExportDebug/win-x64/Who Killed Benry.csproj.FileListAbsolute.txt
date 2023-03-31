@@ -1,0 +1,12 @@
+C:\Users\nsost\Documents\GooglyEyeGames\.godot\mono\temp\bin\ExportDebug\win-x64\Who Killed Benry.deps.json
+C:\Users\nsost\Documents\GooglyEyeGames\.godot\mono\temp\bin\ExportDebug\win-x64\Who Killed Benry.dll
+C:\Users\nsost\Documents\GooglyEyeGames\.godot\mono\temp\bin\ExportDebug\win-x64\Who Killed Benry.pdb
+C:\Users\nsost\Documents\GooglyEyeGames\.godot\mono\temp\obj\ExportDebug\win-x64\Who Killed Benry.csproj.AssemblyReference.cache
+C:\Users\nsost\Documents\GooglyEyeGames\.godot\mono\temp\obj\ExportDebug\win-x64\Who Killed Benry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nsost\Documents\GooglyEyeGames\.godot\mono\temp\obj\ExportDebug\win-x64\Who Killed Benry.AssemblyInfoInputs.cache
+C:\Users\nsost\Documents\GooglyEyeGames\.godot\mono\temp\obj\ExportDebug\win-x64\Who Killed Benry.AssemblyInfo.cs
+C:\Users\nsost\Documents\GooglyEyeGames\.godot\mono\temp\obj\ExportDebug\win-x64\Who Killed Benry.csproj.CoreCompileInputs.cache
+C:\Users\nsost\Documents\GooglyEyeGames\.godot\mono\temp\obj\ExportDebug\win-x64\Who Killed Benry.dll
+C:\Users\nsost\Documents\GooglyEyeGames\.godot\mono\temp\obj\ExportDebug\win-x64\refint\Who Killed Benry.dll
+C:\Users\nsost\Documents\GooglyEyeGames\.godot\mono\temp\obj\ExportDebug\win-x64\Who Killed Benry.pdb
+C:\Users\nsost\Documents\GooglyEyeGames\.godot\mono\temp\obj\ExportDebug\win-x64\ref\Who Killed Benry.dll
