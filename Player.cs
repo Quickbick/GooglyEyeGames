@@ -14,6 +14,7 @@ public partial class Player : CharacterBody3D
 	public override void _Ready()
 	{
 		base._Ready();
+		Input.MouseMode = Input.MouseModeEnum.Captured;
 		neck = GetNode<Node3D>("Neck");
 		camera = GetNode<Camera3D>("Neck/Camera3D");
 	}
