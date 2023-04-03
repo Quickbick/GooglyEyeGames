@@ -48,6 +48,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.172152, 4.76837e-07, -2.615
 [node name="Node2D" type="Node2D" parent="CanvasLayer"]
 
 [node name="Circle01" type="Sprite2D" parent="CanvasLayer/Node2D"]
-position = Vector2(576, 324)
+position = Vector2(960, 540)
 scale = Vector2(0.1, 0.1)
 texture = ExtResource("2_7dsgq")
