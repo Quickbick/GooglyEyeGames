@@ -86,26 +86,23 @@
   },
   "packageFolders": {
     "C:\\Users\\nsost\\.nuget\\packages\\": {},
-    "C:\\Users\\nsost\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\nsost\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GooglyEyeGames\\Who Killed Benry.csproj",
+      "projectUniqueName": "E:\\GooglyEyeGames\\Who Killed Benry.csproj",
       "projectName": "Who Killed Benry",
-      "projectPath": "D:\\GooglyEyeGames\\Who Killed Benry.csproj",
+      "projectPath": "E:\\GooglyEyeGames\\Who Killed Benry.csproj",
       "packagesPath": "C:\\Users\\nsost\\.nuget\\packages\\",
-      "outputPath": "D:\\GooglyEyeGames\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "E:\\GooglyEyeGames\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Users\\nsost\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Users\\nsost\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\nsost\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Users\\nsost\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

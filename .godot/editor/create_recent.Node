@@ -1,7 +1,10 @@
+GridMap
+CollisionShape3D
+StaticBody3D
+MeshInstance3D
 Node2D
 CanvasLayer
 MeshInstance2D
 CenterContainer
-MeshInstance3D
 Camera3D
 Node3D

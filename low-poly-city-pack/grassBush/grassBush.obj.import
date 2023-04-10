@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://qmfg06da5vb1"
+path="res://.godot/imported/grassBush.obj-8110483f1c24b9c66c3d7540bd8f97c2.mesh"
+
+[deps]
+
+files=["res://.godot/imported/grassBush.obj-8110483f1c24b9c66c3d7540bd8f97c2.mesh"]
+
+source_file="res://low-poly-city-pack/grassBush/grassBush.obj"
+dest_files=["res://.godot/imported/grassBush.obj-8110483f1c24b9c66c3d7540bd8f97c2.mesh", "res://.godot/imported/grassBush.obj-8110483f1c24b9c66c3d7540bd8f97c2.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

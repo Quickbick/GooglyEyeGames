@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cl3mj2hb2e60q"
+path="res://.godot/imported/Wall_Prop_Door_Simple.obj-c00db63b7c9ccfeb322d21206ff58880.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Wall_Prop_Door_Simple.obj-c00db63b7c9ccfeb322d21206ff58880.mesh"]
+
+source_file="res://Modular Village/Wall_Prop_Door_Simple.obj"
+dest_files=["res://.godot/imported/Wall_Prop_Door_Simple.obj-c00db63b7c9ccfeb322d21206ff58880.mesh", "res://.godot/imported/Wall_Prop_Door_Simple.obj-c00db63b7c9ccfeb322d21206ff58880.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
