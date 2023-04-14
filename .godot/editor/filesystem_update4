@@ -1,5 +1,5 @@
 res://default_env.tres
-res://Main.tscn
-res://mountain.tres
 res://Player.tscn
-res://floormesh.tscn
+res://mountain.tres
+res://InteractZone.cs
+res://Main.tscn

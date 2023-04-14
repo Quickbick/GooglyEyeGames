@@ -1,2 +1,7 @@
-res://Main.tscn::1c4849415dea94546ce875f9716446ba::1680225659::res://.godot/exported/133200997/export-bcb0d2eb5949c52b6a65bfe9de3e985b-Main.scn
-res://Player.tscn::2f5a16dd80549fc32b2e767cd948f8eb::1680224629::res://.godot/exported/133200997/export-90e1ff3baa03524a506ff0f7a9d78dcf-Player.scn
+res://Main.tscn::3c9e93f62dc83a1be7a2b1ccdd9d6d46::1681170404::res://.godot/exported/133200997/export-bcb0d2eb5949c52b6a65bfe9de3e985b-Main.scn
+res://Player.tscn::2f5a16dd80549fc32b2e767cd948f8eb::1681170404::res://.godot/exported/133200997/export-90e1ff3baa03524a506ff0f7a9d78dcf-Player.scn
+res://default_env.tres::64ed47c18a10e41670dc35992bbbe98f::1681170404::res://.godot/exported/133200997/export-7cf3fd67ad9f55210191d77b582b8209-default_env.res
+res://dirt.tres::4d63011a73d6760e5b6e81c348a20a17::1681170235::res://.godot/exported/133200997/export-74e3f4f9cc303fb8da3c454854fba2c5-dirt.res
+res://floor.tres::aac8ae98c923fcf3f41e4ddd5f8d59f1::1681170235::res://.godot/exported/133200997/export-fce28e841d3907cb15fb0616d24a5e82-floor.res
+res://floormesh.tscn::c2adc7495762e95b8167ec2f224457b5::1681170404::res://.godot/exported/133200997/export-421d989de353ff9bb271beea29381027-floormesh.scn
+res://mountain.tres::2902f9da8c807bfad0a3563d57729c5e::1681170404::res://.godot/exported/133200997/export-e6a7181138e035418cc37e1dbd38c609-mountain.res

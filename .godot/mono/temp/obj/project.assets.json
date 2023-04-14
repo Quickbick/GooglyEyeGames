@@ -91,11 +91,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GooglyEyeGames\\Who Killed Benry.csproj",
+      "projectUniqueName": "C:\\Users\\nsost\\Documents\\GooglyEyeGames\\Who Killed Benry.csproj",
       "projectName": "Who Killed Benry",
-      "projectPath": "E:\\GooglyEyeGames\\Who Killed Benry.csproj",
+      "projectPath": "C:\\Users\\nsost\\Documents\\GooglyEyeGames\\Who Killed Benry.csproj",
       "packagesPath": "C:\\Users\\nsost\\.nuget\\packages\\",
-      "outputPath": "E:\\GooglyEyeGames\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "C:\\Users\\nsost\\Documents\\GooglyEyeGames\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\nsost\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"

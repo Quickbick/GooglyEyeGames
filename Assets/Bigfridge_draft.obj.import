@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://yajtlnrhr01q"
+path="res://.godot/imported/Bigfridge_draft.obj-c11d5d504b28737127b5c0af70c87f7c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Bigfridge_draft.obj-c11d5d504b28737127b5c0af70c87f7c.mesh"]
+
+source_file="res://Assets/Bigfridge_draft.obj"
+dest_files=["res://.godot/imported/Bigfridge_draft.obj-c11d5d504b28737127b5c0af70c87f7c.mesh", "res://.godot/imported/Bigfridge_draft.obj-c11d5d504b28737127b5c0af70c87f7c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
