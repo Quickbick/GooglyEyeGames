@@ -3,3 +3,5 @@ res://Player.tscn
 res://mountain.tres
 res://InteractZone.cs
 res://Main.tscn
+res://Player.cs
+res://appliance.tscn
