@@ -10,6 +10,7 @@ public partial class Player : CharacterBody3D
 	public float gravity = ProjectSettings.GetSetting("physics/3d/default_gravity").AsSingle();
 	public Node3D neck;
 	public Camera3D camera;
+	public InteractZone interactZone;
 	
 	public override void _Ready()
 	{
@@ -17,6 +18,7 @@ public partial class Player : CharacterBody3D
 		Input.MouseMode = Input.MouseModeEnum.Captured;
 		neck = GetNode<Node3D>("Neck");
 		camera = GetNode<Camera3D>("Neck/Camera3D");
+		interactZone = (InteractZone)GetNode<Area3D>("Neck/Camera3D/InteractZone");
 	}
 	
 	public override void _Input(InputEvent @event)
@@ -42,6 +44,10 @@ public partial class Player : CharacterBody3D
 		// Handle Jump.
 		if (Input.IsActionJustPressed("jump") && IsOnFloor())
 			velocity.Y = JumpVelocity;
+			
+		if (Input.IsActionJustPressed("interact") && interactZone.currentObject != null){
+			((Appliance)interactZone.currentObject).interact();
+		}
 
 		// Get the input direction and handle the movement/deceleration.
 		// As good practice, you should replace UI actions with custom gameplay actions.

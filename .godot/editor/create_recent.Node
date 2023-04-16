@@ -1,7 +1,8 @@
-GridMap
-CollisionShape3D
-StaticBody3D
 MeshInstance3D
+StaticBody3D
+CollisionShape3D
+Area3D
+GridMap
 Node2D
 CanvasLayer
 MeshInstance2D

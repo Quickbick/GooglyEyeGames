@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bth6l4hpw2jqt"]
+
+[ext_resource type="ArrayMesh" uid="uid://yajtlnrhr01q" path="res://Assets/Bigfridge_draft.obj" id="1_b56ad"]
+[ext_resource type="Script" path="res://Appliance.cs" id="2_e8gxt"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_0fhao"]
+points = PackedVector3Array(7.36933, 5.60393, 1.6516, 4.44824, 0.378906, -1.61948, 9.67812, 0.320835, -1.64195, 9.67618, 9.7934, -1.64059, 9.65289, 0.366848, 1.6516, 4.47735, 9.68535, 1.63155, 4.44824, 9.73709, -1.61948, 4.47735, 0.429031, 1.63155, 9.81136, 9.61465, 1.50738, 4.85937, 0.1557, 1.36936, 9.65289, 9.74954, 1.6516, 9.82, 0.486896, -1.48584, 9.53477, 0.1557, -1.34542, 9.81148, 0.501095, 1.50709, 9.82, 9.62953, -1.48619, 4.7084, 0.1557, -1.34542, 9.54495, 0.13534, 1.22285, 6.74975, 3.86796, 1.6516, 4.7084, 0.1557, 1.2184, 9.3838, 0.1557, 1.36936, 6.74975, 5.60393, 1.6516)
+
+[node name="Appliance" type="MeshInstance3D"]
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -1.25373, 0.416845, -4.55705)
+mesh = ExtResource("1_b56ad")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("2_e8gxt")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_0fhao")
