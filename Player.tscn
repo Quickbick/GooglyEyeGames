@@ -31,13 +31,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.965883, 2.08631, 0.496448)
 
 [node name="Camera3D" type="Camera3D" parent="Neck"]
 
-[node name="Area3D" type="Area3D" parent="Neck/Camera3D"]
+[node name="InteractZone" type="Area3D" parent="Neck/Camera3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0191349, -0.0201049, -0.796984)
 collision_layer = 2
 collision_mask = 2
 script = ExtResource("2_7jabh")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Neck/Camera3D/Area3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Neck/Camera3D/InteractZone"]
 transform = Transform3D(1, 0, 0, 0, 0.999721, -0.0236471, 0, 0.0236471, 0.999721, 0, -0.254736, -0.0678459)
 shape = SubResource("CapsuleShape3D_5fybf")
 
@@ -56,5 +56,5 @@ position = Vector2(960, 540)
 scale = Vector2(0.2, 0.2)
 texture = ExtResource("4_v7my6")
 
-[connection signal="body_entered" from="Neck/Camera3D/Area3D" to="Neck/Camera3D/Area3D" method="_on_body_entered"]
-[connection signal="body_exited" from="Neck/Camera3D/Area3D" to="Neck/Camera3D/Area3D" method="_on_body_exited"]
+[connection signal="body_entered" from="Neck/Camera3D/InteractZone" to="Neck/Camera3D/InteractZone" method="_on_body_entered"]
+[connection signal="body_exited" from="Neck/Camera3D/InteractZone" to="Neck/Camera3D/InteractZone" method="_on_body_exited"]

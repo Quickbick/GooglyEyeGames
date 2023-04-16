@@ -1,7 +1,11 @@
 res://default_env.tres
-res://Player.tscn
-res://mountain.tres
-res://InteractZone.cs
-res://Main.tscn
-res://Player.cs
 res://appliance.tscn
+res://mountain.tres
+res://appliance.cs
+res://Player.tscn
+res://InteractZone.cs
+res://Player.cs
+res://Main.tscn
+res://CollisionShape3D.cs
+res://Appliance.cs
+res://StaticBody3D.cs

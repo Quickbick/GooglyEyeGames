@@ -6,6 +6,9 @@ public partial class InteractZone : Area3D
 	public Sprite2D baseCursor;
 	public Sprite2D interactCursor;
 	
+	[Export]
+	public Node3D currentObject = null;
+	
 	public override void _Ready(){
 		baseCursor = GetNode<Sprite2D>("../../../CanvasLayer/Node2D/BaseCursor");
 		interactCursor = GetNode<Sprite2D>("../../../CanvasLayer/Node2D/InteractCursor");
@@ -16,6 +19,7 @@ public partial class InteractZone : Area3D
 	{
 		baseCursor.Visible = false;
 		interactCursor.Visible = true;
+		currentObject = body;
 	}	
 	
 	// When object exits sight sensor
@@ -23,8 +27,8 @@ public partial class InteractZone : Area3D
 	{
 		baseCursor.Visible = true;
 		interactCursor.Visible = false;
+		currentObject = null;
 	}
-		
 }
 
 

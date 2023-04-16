@@ -5,7 +5,7 @@
 [ext_resource type="ArrayMesh" uid="uid://bmtffm8if11qg" path="res://Modular Village/Stone_to_Stucco_Doorway_Wide_Tall_2.obj" id="4_bi65s"]
 [ext_resource type="Texture2D" uid="uid://ownjyjxns4s0" path="res://low-poly-city-pack/houseCorner/houseCorner.jpg" id="5_gyqb0"]
 [ext_resource type="ArrayMesh" uid="uid://cwd52vhcp52j0" path="res://low-poly-city-pack/houseCorner/houseCorner.obj" id="6_hhetc"]
-[ext_resource type="PackedScene" uid="uid://gjyhvcmtlsuw" path="res://appliance.tscn" id="7_boenl"]
+[ext_resource type="PackedScene" uid="uid://bth6l4hpw2jqt" path="res://appliance.tscn" id="7_boenl"]
 [ext_resource type="ArrayMesh" uid="uid://ca2bd4ved5nss" path="res://low-poly-city-pack/houseBig/houseBig.obj" id="7_u41je"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_d3t2x"]
@@ -123,3 +123,4 @@ metadata/_editor_floor_ = Vector3(0, 0, 0)
 
 [node name="Appliance" parent="." instance=ExtResource("7_boenl")]
 transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -1.12939, 0.491621, -4.76076)
+layers = 2
