@@ -46,3 +46,15 @@ E:\GooglyEyeGames\.godot\mono\temp\obj\Debug\Who Killed Benry.dll
 E:\GooglyEyeGames\.godot\mono\temp\obj\Debug\refint\Who Killed Benry.dll
 E:\GooglyEyeGames\.godot\mono\temp\obj\Debug\Who Killed Benry.pdb
 E:\GooglyEyeGames\.godot\mono\temp\obj\Debug\ref\Who Killed Benry.dll
+G:\GooglyEyeGames\.godot\mono\temp\bin\Debug\Who Killed Benry.deps.json
+G:\GooglyEyeGames\.godot\mono\temp\bin\Debug\Who Killed Benry.dll
+G:\GooglyEyeGames\.godot\mono\temp\bin\Debug\Who Killed Benry.pdb
+G:\GooglyEyeGames\.godot\mono\temp\obj\Debug\Who Killed Benry.csproj.AssemblyReference.cache
+G:\GooglyEyeGames\.godot\mono\temp\obj\Debug\Who Killed Benry.GeneratedMSBuildEditorConfig.editorconfig
+G:\GooglyEyeGames\.godot\mono\temp\obj\Debug\Who Killed Benry.AssemblyInfoInputs.cache
+G:\GooglyEyeGames\.godot\mono\temp\obj\Debug\Who Killed Benry.AssemblyInfo.cs
+G:\GooglyEyeGames\.godot\mono\temp\obj\Debug\Who Killed Benry.csproj.CoreCompileInputs.cache
+G:\GooglyEyeGames\.godot\mono\temp\obj\Debug\Who Killed Benry.dll
+G:\GooglyEyeGames\.godot\mono\temp\obj\Debug\refint\Who Killed Benry.dll
+G:\GooglyEyeGames\.godot\mono\temp\obj\Debug\Who Killed Benry.pdb
+G:\GooglyEyeGames\.godot\mono\temp\obj\Debug\ref\Who Killed Benry.dll

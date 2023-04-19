@@ -1,10 +1,14 @@
+Label
+HBoxContainer
+Panel
+MarginContainer
+Node2D
+CanvasLayer
 MeshInstance3D
 StaticBody3D
 CollisionShape3D
 Area3D
 GridMap
-Node2D
-CanvasLayer
 MeshInstance2D
 CenterContainer
 Camera3D
