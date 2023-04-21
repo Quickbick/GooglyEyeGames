@@ -3,3 +3,5 @@ res://Main.tscn
 res://mountain.tres
 res://Player.tscn
 res://appliance.tscn
+res://Appliance.cs
+res://dialoguePlayer.cs

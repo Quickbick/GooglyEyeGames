@@ -2,6 +2,7 @@
 
 [ext_resource type="ArrayMesh" uid="uid://yajtlnrhr01q" path="res://Assets/Bigfridge_draft.obj" id="1_b56ad"]
 [ext_resource type="Script" path="res://Appliance.cs" id="2_e8gxt"]
+[ext_resource type="Script" path="res://dialoguePlayer.cs" id="3_xi8vd"]
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_0fhao"]
 points = PackedVector3Array(7.36933, 5.60393, 1.6516, 4.44824, 0.378906, -1.61948, 9.67812, 0.320835, -1.64195, 9.67618, 9.7934, -1.64059, 9.65289, 0.366848, 1.6516, 4.47735, 9.68535, 1.63155, 4.44824, 9.73709, -1.61948, 4.47735, 0.429031, 1.63155, 9.81136, 9.61465, 1.50738, 4.85937, 0.1557, 1.36936, 9.65289, 9.74954, 1.6516, 9.82, 0.486896, -1.48584, 9.53477, 0.1557, -1.34542, 9.81148, 0.501095, 1.50709, 9.82, 9.62953, -1.48619, 4.7084, 0.1557, -1.34542, 9.54495, 0.13534, 1.22285, 6.74975, 3.86796, 1.6516, 4.7084, 0.1557, 1.2184, 9.3838, 0.1557, 1.36936, 6.74975, 5.60393, 1.6516)
@@ -13,8 +14,6 @@ border_width_top = 3
 border_width_right = 3
 border_width_bottom = 3
 border_color = Color(1, 1, 1, 1)
-
-[sub_resource type="SystemFont" id="SystemFont_2ccy7"]
 
 [node name="Appliance" type="MeshInstance3D"]
 transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -1.25373, 0.416845, -4.55705)
@@ -29,35 +28,25 @@ script = ExtResource("2_e8gxt")
 shape = SubResource("ConvexPolygonShape3D_0fhao")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="StaticBody3D"]
+script = ExtResource("3_xi8vd")
 
-[node name="MarginContainer" type="MarginContainer" parent="StaticBody3D/CanvasLayer"]
-anchors_preset = 12
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_top = -265.0
-grow_horizontal = 2
-grow_vertical = 0
-size_flags_vertical = 8
-
-[node name="Panel" type="Panel" parent="StaticBody3D/CanvasLayer/MarginContainer"]
-layout_mode = 2
+[node name="Panel" type="Panel" parent="StaticBody3D/CanvasLayer"]
+offset_top = 815.0
+offset_right = 1920.0
+offset_bottom = 1080.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_7qeju")
 
-[node name="HBoxContainer" type="HBoxContainer" parent="StaticBody3D/CanvasLayer/MarginContainer/Panel"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = 45.0
-offset_top = 30.0
-offset_right = -48.0
-offset_bottom = -38.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="Name" type="RichTextLabel" parent="StaticBody3D/CanvasLayer/Panel"]
+layout_mode = 0
+offset_left = 1471.0
+offset_top = 11.0
+offset_right = 1904.0
+offset_bottom = 98.0
+theme_override_font_sizes/normal_font_size = 51
 
-[node name="Label" type="Label" parent="StaticBody3D/CanvasLayer/MarginContainer/Panel/HBoxContainer"]
-layout_mode = 2
-theme_override_fonts/font = SubResource("SystemFont_2ccy7")
-theme_override_font_sizes/font_size = 49
-text = "I have no mouth but I must scream"
+[node name="Message" type="RichTextLabel" parent="StaticBody3D/CanvasLayer/Panel"]
+offset_left = 19.0
+offset_top = 92.0
+offset_right = 1893.0
+offset_bottom = 236.0
+theme_override_font_sizes/normal_font_size = 51

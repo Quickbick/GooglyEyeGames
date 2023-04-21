@@ -14,6 +14,6 @@ public partial class Appliance : Godot.StaticBody3D
 	}
 	
 	public void interact(){
-		GetNode<MeshInstance3D>("../").RotateY(90);
+		GetNode<CanvasLayer>("CanvasLayer").Visible = true;
 	}
 }

@@ -85,29 +85,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nathanael.ostheller\\.nuget\\packages\\": {},
-    "C:\\Users\\nathanael.ostheller\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {}
+    "C:\\Users\\nsost\\.nuget\\packages\\": {},
+    "C:\\Users\\nsost\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\GooglyEyeGames\\Who Killed Benry.csproj",
+      "projectUniqueName": "C:\\Users\\nsost\\Documents\\GooglyEyeGames\\Who Killed Benry.csproj",
       "projectName": "Who Killed Benry",
-      "projectPath": "G:\\GooglyEyeGames\\Who Killed Benry.csproj",
-      "packagesPath": "C:\\Users\\nathanael.ostheller\\.nuget\\packages\\",
-      "outputPath": "G:\\GooglyEyeGames\\.godot\\mono\\temp\\obj\\",
+      "projectPath": "C:\\Users\\nsost\\Documents\\GooglyEyeGames\\Who Killed Benry.csproj",
+      "packagesPath": "C:\\Users\\nsost\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nsost\\Documents\\GooglyEyeGames\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Users\\nathanael.ostheller\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        "C:\\Users\\nsost\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\nathanael.ostheller\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Users\\nathanael.ostheller\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config"
+        "C:\\Users\\nsost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nsost\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net60"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -150,26 +152,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.14, 6.0.14]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.14, 6.0.14]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.14, 6.0.14]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
