@@ -29,6 +29,7 @@ shape = SubResource("ConvexPolygonShape3D_0fhao")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="StaticBody3D"]
 script = ExtResource("3_xi8vd")
+dialogueFile = "C:/Users/nsost/Documents/GooglyEyeGames/demotext.txt"
 
 [node name="Panel" type="Panel" parent="StaticBody3D/CanvasLayer"]
 offset_top = 815.0
@@ -38,13 +39,14 @@ theme_override_styles/panel = SubResource("StyleBoxFlat_7qeju")
 
 [node name="Name" type="RichTextLabel" parent="StaticBody3D/CanvasLayer/Panel"]
 layout_mode = 0
-offset_left = 1471.0
-offset_top = 11.0
-offset_right = 1904.0
-offset_bottom = 98.0
+offset_left = 13.0
+offset_top = 13.0
+offset_right = 446.0
+offset_bottom = 90.0
 theme_override_font_sizes/normal_font_size = 51
 
 [node name="Message" type="RichTextLabel" parent="StaticBody3D/CanvasLayer/Panel"]
+layout_mode = 0
 offset_left = 19.0
 offset_top = 92.0
 offset_right = 1893.0
