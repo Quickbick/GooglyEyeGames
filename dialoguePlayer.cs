@@ -18,11 +18,26 @@ public partial class dialoguePlayer : CanvasLayer
 	public void play(){
 		loadDialogue();
 		List<string> currentBlock = dialogues[0];
-		dialogues.RemoveAt(0);
 		GetNode<RichTextLabel>("Panel/Name").Text = currentBlock[0];
 		currentBlock.RemoveAt(0);
 		GetNode<RichTextLabel>("Panel/Message").Text = currentBlock[0];
 		currentBlock.RemoveAt(0);
+	}
+	
+	public void playNext(){
+		List<string> currentBlock = dialogues[0];
+		if (currentBlock.Count == 0){
+			dialogues.RemoveAt(0);
+			currentBlock = dialogues[0];
+			GetNode<RichTextLabel>("Panel/Name").Text = currentBlock[0];
+			currentBlock.RemoveAt(0);
+			GetNode<RichTextLabel>("Panel/Message").Text = currentBlock[0];
+			currentBlock.RemoveAt(0);
+		}
+		else{
+			GetNode<RichTextLabel>("Panel/Message").Text = currentBlock[0];
+			currentBlock.RemoveAt(0);
+		}
 	}
 	
 	public void loadDialogue(){

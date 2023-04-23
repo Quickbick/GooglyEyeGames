@@ -1,7 +1,9 @@
 res://default_env.tres
-res://appliance.tscn
-res://mountain.tres
-res://dialoguePlayer.cs
 res://Main.tscn
+res://mountain.tres
 res://Player.tscn
-res://demotext.txt
+res://appliance.tscn
+res://Appliance.cs
+res://dialoguePlayer.cs
+res://InteractZone.cs
+res://Player.cs

@@ -11,6 +11,7 @@ public partial class Player : CharacterBody3D
 	public Node3D neck;
 	public Camera3D camera;
 	public InteractZone interactZone;
+	public bool inDialogue = false;
 	
 	public override void _Ready()
 	{
@@ -46,7 +47,13 @@ public partial class Player : CharacterBody3D
 			velocity.Y = JumpVelocity;
 			
 		if (Input.IsActionJustPressed("interact") && interactZone.currentObject != null){
-			((Appliance)interactZone.currentObject).interact();
+			if(inDialogue == false){
+				((Appliance)interactZone.currentObject).startInteract();
+				inDialogue = true;
+			}
+			else{
+				((Appliance)interactZone.currentObject).contInteract();
+			}
 		}
 
 		// Get the input direction and handle the movement/deceleration.

@@ -28,6 +28,7 @@ script = ExtResource("2_e8gxt")
 shape = SubResource("ConvexPolygonShape3D_0fhao")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="StaticBody3D"]
+visible = false
 script = ExtResource("3_xi8vd")
 dialogueFile = "C:/Users/nsost/Documents/GooglyEyeGames/demotext.txt"
 

@@ -13,7 +13,15 @@ public partial class Appliance : Godot.StaticBody3D
 	{
 	}
 	
-	public void interact(){
+	public void startInteract(){
 		GetNode<CanvasLayer>("CanvasLayer").Visible = true;
+	}
+	
+	public void contInteract(){
+		((dialoguePlayer)GetNode<CanvasLayer>("CanvasLayer")).playNext();
+	}
+	
+	public void endInteract(){
+		GetNode<CanvasLayer>("CanvasLayer").Visible = false;
 	}
 }

@@ -25,6 +25,7 @@ public partial class InteractZone : Area3D
 	// When object exits sight sensor
 	private void _on_body_exited(Node3D body)
 	{
+		((Appliance)currentObject).endInteract();
 		baseCursor.Visible = true;
 		interactCursor.Visible = false;
 		currentObject = null;
