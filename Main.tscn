@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://lk0tnu0qk5k5"]
+[gd_scene load_steps=18 format=3 uid="uid://lk0tnu0qk5k5"]
 
 [ext_resource type="PackedScene" uid="uid://qc5pw2pe48b" path="res://Player.tscn" id="1_yb8uk"]
 [ext_resource type="MeshLibrary" uid="uid://drk3jwgy6kq6o" path="res://mountain.tres" id="3_v6ftu"]
@@ -7,6 +7,8 @@
 [ext_resource type="ArrayMesh" uid="uid://cwd52vhcp52j0" path="res://low-poly-city-pack/houseCorner/houseCorner.obj" id="6_hhetc"]
 [ext_resource type="PackedScene" uid="uid://bth6l4hpw2jqt" path="res://appliance.tscn" id="7_boenl"]
 [ext_resource type="ArrayMesh" uid="uid://ca2bd4ved5nss" path="res://low-poly-city-pack/houseBig/houseBig.obj" id="7_u41je"]
+[ext_resource type="PackedScene" uid="uid://orlowopvtdqu" path="res://boatMan.tscn" id="8_ybfmw"]
+[ext_resource type="PackedScene" uid="uid://dtwd56aeh4d7d" path="res://fricky.tscn" id="9_8kvyf"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_d3t2x"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -47,7 +49,7 @@ transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -
 shadow_enabled = true
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(2.84542, 0, 0, 0, 1, 0, 0, 0, 3.3, -2.67806, 0.00904417, -8.44574)
+transform = Transform3D(2.84542, 0, 0, 0, 1, 0, 0, 0, 3.3, -0.984159, -0.174894, -8.88727)
 mesh = SubResource("PlaneMesh_0khdc")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
@@ -122,5 +124,11 @@ data = {
 metadata/_editor_floor_ = Vector3(0, 0, 0)
 
 [node name="Appliance" parent="." instance=ExtResource("7_boenl")]
-transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -1.12939, 0.491621, -4.76076)
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 1.16383, 0.455917, -16.7848)
 layers = 2
+
+[node name="BoatMan" parent="." instance=ExtResource("8_ybfmw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.60025, 1.39589, 0.636024)
+
+[node name="Appliance2" parent="." instance=ExtResource("9_8kvyf")]
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -0.701463, 0.405349, -4.78286)

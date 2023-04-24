@@ -29,6 +29,7 @@ public partial class InteractZone : Area3D
 		baseCursor.Visible = true;
 		interactCursor.Visible = false;
 		currentObject = null;
+		((Player)GetNode<CharacterBody3D>("../../../")).inDialogue = false;
 	}
 }
 
