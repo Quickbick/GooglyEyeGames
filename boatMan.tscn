@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Appliance.cs" id="2_aspr1"]
 [ext_resource type="Script" path="res://dialoguePlayer.cs" id="3_bouv5"]
-[ext_resource type="Texture2D" uid="uid://b3dvtcv0hnhrs" path="res://Assets/robU.png" id="4_7a6f1"]
+[ext_resource type="Texture2D" uid="uid://cvhpgxjan6bqk" path="res://Assets/boatman.png" id="3_br71l"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_fpajw"]
 
@@ -54,11 +54,10 @@ offset_right = 1893.0
 offset_bottom = 236.0
 theme_override_font_sizes/normal_font_size = 51
 
-[node name="RobU" type="Sprite2D" parent="StaticBody3D/CanvasLayer/Panel"]
-z_index = -5
-position = Vector2(121, -163)
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("4_7a6f1")
+[node name="Boatman" type="Sprite2D" parent="StaticBody3D/CanvasLayer/Panel"]
+z_index = -1
+position = Vector2(218, -157)
+texture = ExtResource("3_br71l")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.960141, 1.502, 0.5)
