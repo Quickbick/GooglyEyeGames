@@ -124,11 +124,11 @@ data = {
 metadata/_editor_floor_ = Vector3(0, 0, 0)
 
 [node name="Appliance" parent="." instance=ExtResource("7_boenl")]
-transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 1.16383, 0.455917, -16.7848)
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 1.8879, -0.0173835, -16.7848)
 layers = 2
 
 [node name="BoatMan" parent="." instance=ExtResource("8_ybfmw")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.60025, 1.39589, 0.636024)
+transform = Transform3D(0.75, 0, 0, 0, 0.75, 0, 0, 0, 0.75, -1.60025, 0.97697, 0.636024)
 
 [node name="Appliance2" parent="." instance=ExtResource("9_8kvyf")]
 transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -0.701463, 0.405349, -4.78286)

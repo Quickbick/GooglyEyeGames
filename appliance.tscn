@@ -1,12 +1,12 @@
 [gd_scene load_steps=7 format=3 uid="uid://bth6l4hpw2jqt"]
 
-[ext_resource type="ArrayMesh" uid="uid://yajtlnrhr01q" path="res://Assets/Bigfridge_draft.obj" id="1_b56ad"]
+[ext_resource type="ArrayMesh" uid="uid://7r4og3xl3p30" path="res://Assets/ROB.obj" id="1_udn30"]
 [ext_resource type="Script" path="res://Appliance.cs" id="2_e8gxt"]
 [ext_resource type="Script" path="res://dialoguePlayer.cs" id="3_xi8vd"]
 [ext_resource type="Texture2D" uid="uid://b3dvtcv0hnhrs" path="res://Assets/robU.png" id="4_vfb0b"]
 
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_0fhao"]
-points = PackedVector3Array(7.36933, 5.60393, 1.6516, 4.44824, 0.378906, -1.61948, 9.67812, 0.320835, -1.64195, 9.67618, 9.7934, -1.64059, 9.65289, 0.366848, 1.6516, 4.47735, 9.68535, 1.63155, 4.44824, 9.73709, -1.61948, 4.47735, 0.429031, 1.63155, 9.81136, 9.61465, 1.50738, 4.85937, 0.1557, 1.36936, 9.65289, 9.74954, 1.6516, 9.82, 0.486896, -1.48584, 9.53477, 0.1557, -1.34542, 9.81148, 0.501095, 1.50709, 9.82, 9.62953, -1.48619, 4.7084, 0.1557, -1.34542, 9.54495, 0.13534, 1.22285, 6.74975, 3.86796, 1.6516, 4.7084, 0.1557, 1.2184, 9.3838, 0.1557, 1.36936, 6.74975, 5.60393, 1.6516)
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_t1a06"]
+points = PackedVector3Array(1.21589, 11.3683, -0.757501, -1.32786, 10.46, -0.212394, -1.32786, 10.46, 1.24114, 1.0342, 0.105105, 0.332216, -0.782234, 0.287228, -0.939286, 1.39786, 11.1862, 1.24114, -0.600538, 0.287228, 1.05911, -0.418841, 11.5516, -1.30286, 0.670804, 0.287228, -0.939286, -1.14589, 0.287228, 0.332216, 0.489108, 0.287228, 1.05911, -1.14589, 11.5516, 0.695538, 0.489108, 10.6409, -1.30286, 1.0342, 0.287228, -0.575964, -0.418841, 0.287228, -1.12107, -1.14589, 11.5516, -0.757501, -1.14589, 0.468213, -0.394179, 0.489108, 11.5516, 1.24114, 0.852501, 0.287228, 0.877323, -0.600538, 11.0052, -1.30286, 0.307411, 0.287228, -1.12107, 1.0342, 11.5516, -0.939286, 1.39786, 10.46, 1.24114, -0.96393, 0.105105, -0.575964, -0.237145, 0.105105, 1.05911, -1.32786, 11.3683, -0.394179, -0.96393, 0.287228, 0.695538, 0.852501, 10.46, -1.12107, 0.852501, 0.105105, -0.757501, -1.10438, 11.1703, 1.19643, 1.39786, 10.46, 1.05911, -0.96393, 0.287228, -0.757501)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7qeju"]
 bg_color = Color(0.129412, 0.145098, 0.176471, 1)
@@ -18,7 +18,7 @@ border_color = Color(1, 1, 1, 1)
 
 [node name="Appliance" type="MeshInstance3D"]
 transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, -1.25373, 0.416845, -4.55705)
-mesh = ExtResource("1_b56ad")
+mesh = ExtResource("1_udn30")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 collision_layer = 2
@@ -26,7 +26,8 @@ collision_mask = 2
 script = ExtResource("2_e8gxt")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
-shape = SubResource("ConvexPolygonShape3D_0fhao")
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_t1a06")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="StaticBody3D"]
 visible = false
